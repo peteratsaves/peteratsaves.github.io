@@ -36,7 +36,7 @@ for i in range(0,df[0].shape[0]):
     loss = int(df[0]['L'][i])
     wins[team_index] = win
     losses[team_index] = loss
-    projected_wins[team_index] = round(82 * (win/(win + loss)))
+    projected_wins[team_index] = round(82 * (win/(win + 1)))
 
 for i in range(0,df[1].shape[0]):
     team = str(df[1]['Western Conference'][i])
@@ -47,7 +47,7 @@ for i in range(0,df[1].shape[0]):
     loss = int(df[1]['L'][i])
     wins[team_index] = win
     losses[team_index] = loss
-    projected_wins[team_index] = round(82 * (win/(win + loss)))
+    projected_wins[team_index] = round(82 * (win/(win + 1)))
 
 with open('C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/index.js', 'w') as f:
     ##What changes and what must be passed into javascript
@@ -70,13 +70,13 @@ with open('C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/i
 
 ##Automatically push to GitHub
 import git 
-#repo = git.Repo('C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io') 
-#origin = repo.remote(name='origin') 
+repo = git.Repo('C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io') 
+origin = repo.remote(name='origin') 
   
-#existing_branch = repo.heads['main'] 
-#existing_branch.checkout() 
+existing_branch = repo.heads['main'] 
+existing_branch.checkout() 
 
-#file1 = 'C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/index.js'
-#repo.index.add([file1]) 
-#repo.index.commit('Update games and standings') 
-#origin.push() 
+file1 = 'C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/index.js'
+repo.index.add([file1]) 
+repo.index.commit('Update games and standings') 
+origin.push() 
