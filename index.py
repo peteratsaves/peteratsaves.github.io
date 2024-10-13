@@ -76,7 +76,8 @@ origin = repo.remote(name='origin')
 existing_branch = repo.heads['main'] 
 existing_branch.checkout() 
 
-file1 = 'C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/index.js'
+#file1 = 'C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/index.js'
+file1 = r'C:\Users\atsav\OneDrive\Desktop\peteratsaves\peteratsaves.github.io\index.js'
 repo.index.add([file1]) 
 repo.index.commit('Update games and standings') 
 origin.push() 
