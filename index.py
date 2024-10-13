@@ -36,7 +36,7 @@ for i in range(0,df[0].shape[0]):
     loss = int(df[0]['L'][i])
     wins[team_index] = win
     losses[team_index] = loss
-    projected_wins[team_index] = round(82 * (win/(win + 1)))
+    projected_wins[team_index] = round(82 * (win/(win + loss)))
 
 for i in range(0,df[1].shape[0]):
     team = str(df[1]['Western Conference'][i])
@@ -47,7 +47,7 @@ for i in range(0,df[1].shape[0]):
     loss = int(df[1]['L'][i])
     wins[team_index] = win
     losses[team_index] = loss
-    projected_wins[team_index] = round(82 * (win/(win + 1)))
+    projected_wins[team_index] = round(82 * (win/(win + loss)))
 
 with open('C:/Users/atsav/OneDrive/Desktop/peteratsaves/peteratsaves.github.io/index.js', 'w') as f:
     ##What changes and what must be passed into javascript
