@@ -5,7 +5,7 @@ let over_under=['Over', 'Under', 'Over', 'Over', 'Over', 'Under', 'Under', 'Over
 let people=['Alan', 'Alan', 'Alan', 'Alan', 'Alan', 'Alan', 'Emil', 'Emil', 'Emil', 'Emil', 'Emil', 'Emil', 'Eric', 'Eric', 'Eric', 'Eric', 'Eric', 'Eric', 'Josh', 'Josh', 'Josh', 'Josh', 'Josh', 'Josh', 'Peter', 'Peter', 'Peter', 'Peter', 'Peter', 'Peter'];
 let wins=[6, 5, 9, 7, 11, 3, 10, 10, 4, 8, 8, 2, 5, 7, 6, 8, 5, 6, 15, 7, 9, 6, 8, 2, 11, 5, 7, 7, 4, 2];
 let losses=[8, 9, 4, 6, 3, 10, 2, 4, 9, 6, 6, 10, 8, 8, 7, 6, 7, 8, 0, 7, 5, 8, 6, 12, 3, 9, 7, 5, 10, 10];
-let projected_wins=[22, 65, 77, 19, 14, 19, 16, 59, 70, 71, 74, 14, 32, 38, 38, 47, 34, 35, 15, 41, 53, 35, 47, 12, 64, 29, 41, 48, 70, 68];
+let projected_wins=[22, 65, 77, 19, 14, 19, 528, 59, 70, 71, 74, 14, 70, 70, 38, 47, 34, 35, 15, 41, 53, 35, 47, 12, 64, 29, 41, 48, 70, 68];
 
 //Existing Javascript code below
 let standings = '<h2>Standings</h2><table class="table table-bordered table-striped"><thead class="thead-dark"><tr><th>   </th><th>Person</th><th>W</th><th>L</th><th>Projected Win Differential</th></tr></thead><tbody>';
