@@ -215,4 +215,4 @@ let day = d.getDate();
 let month = d.getMonth();
 let year = d.getFullYear();
 const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-document.getElementById("last_updated").innerHTML = "Last updated: " + months[month] + ' ' + day + ', ' + year;
+document.getElementById("last_updated").innerHTML = "Last update: " + months[month] + ' ' + day + ', ' + year;
