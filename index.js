@@ -3,9 +3,9 @@ let teams=['Atlanta Hawks', 'Brooklyn Nets', 'Los Angeles Lakers', 'New York Kni
 let overs=[36.5, 19.5, 42.5, 53.5, 57.5, 27.5, 43.5, 42.5, 49.5, 51.5, 47.5, 19.5, 31.5, 25.5, 46.5, 46.5, 43.5, 20.5, 48.5, 35.5, 48.5, 35.5, 46.5, 28.5, 58.5, 28.5, 49.5, 50.5, 45.5, 49.5];
 let over_under=['Over', 'Under', 'Over', 'Over', 'Over', 'Under', 'Under', 'Over', 'Over', 'Over', 'Over', 'Under', 'Over', 'Over', 'Under', 'Over', 'Over', 'Over', 'Over', 'Under', 'Over', 'Under', 'Over', 'Under', 'Over', 'Over', 'Under', 'Over', 'Over', 'Over'];
 let people=['Alan', 'Alan', 'Alan', 'Alan', 'Alan', 'Alan', 'Emil', 'Emil', 'Emil', 'Emil', 'Emil', 'Emil', 'Eric', 'Eric', 'Eric', 'Eric', 'Eric', 'Eric', 'Josh', 'Josh', 'Josh', 'Josh', 'Josh', 'Josh', 'Peter', 'Peter', 'Peter', 'Peter', 'Peter', 'Peter'];
-let wins=[6, 5, 9, 7, 11, 3, 10, 10, 4, 8, 8, 2, 5, 7, 6, 8, 5, 6, 15, 7, 9, 6, 8, 2, 11, 5, 7, 7, 4, 2];
-let losses=[8, 9, 4, 6, 3, 10, 2, 4, 9, 6, 6, 10, 8, 8, 7, 6, 7, 8, 0, 7, 5, 8, 6, 12, 3, 9, 7, 5, 10, 10];
-let projected_wins=[22, 65, 77, 19, 14, 19, 528, 59, 70, 71, 74, 14, 70, 70, 38, 47, 34, 35, 15, 41, 9, 33, 8, 12, 64, 29, 41, 48, 70, 68];
+let wins=[7, 8, 10, 10, 13, 4, 12, 13, 9, 8, 12, 2, 6, 8, 8, 11, 7, 7, 17, 11, 10, 10, 8, 4, 15, 8, 10, 9, 4, 3];
+let losses=[11, 10, 7, 7, 4, 13, 5, 6, 9, 9, 7, 14, 11, 11, 10, 7, 8, 11, 1, 8, 7, 8, 10, 14, 3, 11, 8, 7, 14, 13];
+let projected_wins=[32, 36, 48, 48, 63, 19, 58, 56, 41, 39, 52, 10, 29, 35, 36, 50, 38, 32, 77, 47, 48, 46, 36, 18, 68, 35, 46, 46, 18, 15];
 
 //Existing Javascript code below
 let standings = '<h2>Standings</h2><table class="table table-bordered table-striped"><thead class="thead-dark"><tr><th>   </th><th>Person</th><th>W</th><th>L</th><th>Projected Win Differential</th></tr></thead><tbody>';
@@ -215,4 +215,4 @@ let day = d.getDate();
 let month = d.getMonth();
 let year = d.getFullYear();
 const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-document.getElementById("last_updated").innerHTML = "Last update: " + months[month] + ' ' + day + ', ' + year;
+document.getElementById("last_updated").innerHTML = "Last updated: " + months[month] + ' ' + day + ', ' + year;
