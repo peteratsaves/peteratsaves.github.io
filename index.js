@@ -3,9 +3,9 @@ let teams=['Atlanta Hawks', 'Brooklyn Nets', 'Los Angeles Lakers', 'New York Kni
 let overs=[36.5, 19.5, 42.5, 53.5, 57.5, 27.5, 43.5, 42.5, 49.5, 51.5, 47.5, 19.5, 31.5, 25.5, 46.5, 46.5, 43.5, 20.5, 48.5, 35.5, 48.5, 35.5, 46.5, 28.5, 58.5, 28.5, 49.5, 50.5, 45.5, 49.5];
 let over_under=['Over', 'Under', 'Over', 'Over', 'Over', 'Under', 'Under', 'Over', 'Over', 'Over', 'Over', 'Under', 'Over', 'Over', 'Under', 'Over', 'Over', 'Over', 'Over', 'Under', 'Over', 'Under', 'Over', 'Under', 'Over', 'Over', 'Under', 'Over', 'Over', 'Over'];
 let people=['Alan', 'Alan', 'Alan', 'Alan', 'Alan', 'Alan', 'Emil', 'Emil', 'Emil', 'Emil', 'Emil', 'Emil', 'Eric', 'Eric', 'Eric', 'Eric', 'Eric', 'Eric', 'Josh', 'Josh', 'Josh', 'Josh', 'Josh', 'Josh', 'Peter', 'Peter', 'Peter', 'Peter', 'Peter', 'Peter'];
-let wins=[11, 9, 12, 12, 15, 4, 12, 15, 10, 10, 15, 2, 6, 9, 9, 14, 9, 8, 18, 13, 11, 11, 9, 6, 17, 9, 13, 10, 4, 4];
-let losses=[11, 13, 9, 8, 5, 16, 7, 6, 9, 10, 7, 16, 14, 13, 12, 7, 10, 13, 3, 9, 8, 9, 12, 15, 4, 13, 8, 8, 18, 14];
-let projected_wins=[41, 34, 47, 49, 62, 16, 52, 59, 43, 41, 56, 9, 25, 34, 35, 55, 39, 31, 70, 48, 47, 45, 35, 23, 66, 34, 51, 46, 15, 18];
+let wins=[13, 10, 12, 14, 17, 5, 13, 15, 11, 12, 16, 2, 6, 9, 10, 15, 10, 8, 20, 14, 12, 11, 11, 7, 19, 10, 15, 11, 5, 6];
+let losses=[11, 13, 11, 8, 5, 17, 9, 8, 11, 10, 9, 18, 16, 15, 14, 8, 10, 15, 3, 10, 9, 12, 13, 16, 4, 14, 8, 9, 18, 15];
+let projected_wins=[44, 36, 43, 52, 63, 19, 48, 53, 41, 45, 52, 8, 22, 31, 34, 53, 41, 29, 71, 48, 47, 39, 38, 25, 68, 34, 53, 45, 18, 23];
 
 //Existing Javascript code below
 let standings = '<h2>Standings</h2><table class="table table-bordered table-striped"><thead class="thead-dark"><tr><th>   </th><th>Person</th><th>W</th><th>L</th><th>Projected Win Differential</th></tr></thead><tbody>';
